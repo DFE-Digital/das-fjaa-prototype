@@ -1,0 +1,133 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  My apprenticeship
+{% endblock %}
+
+   {% block content %}
+
+<style>
+     .govuk-notification-banner__content > * {
+       box-sizing: border-box;
+      max-width: 100%; }
+</style>
+
+
+   <div class="govuk-width-container" id="landing-page-section">
+   
+        <div class="govuk-grid-row">
+             <div class="govuk-grid-column-full">
+
+               <div class="govuk-notification-banner" role="region" aria-labelledby="govuk-notification-banner-title" data-module="govuk-notification-banner">
+                    <div class="govuk-notification-banner__header">
+                      <h2 class="govuk-notification-banner__title" id="govuk-notification-banner-title">
+                        Important
+                      </h2>
+                    </div>
+                    <div class="govuk-notification-banner__content">
+                      <p class="govuk-notification-banner__heading">
+                        The details of your apprenticeship have been corrected. Please review and confirm the changes to your apprenticeship details.
+                      </p>
+                      <p class="govuk-notification-banner__heading">
+                         You have 7 days to confirm your apprenticeship details.
+                       </p>
+                    </div>
+                  </div>
+      
+               <h1 class="govuk-heading-l">
+                    Confirm my apprenticeship details
+               </h1>
+   
+   
+               <p> 
+               Read through each section below to confirm your apprenticeship. 
+               If you ever need to check on the details of your apprenticeship, you can come back here.
+               </p>
+   
+   
+               <p>
+               Your answers will save automatically, so you can leave and come back if you need to.
+               </p>
+      
+   
+   
+          <!-- ////// > Section One ~ Employer < ////////////////////////////////////////////////////////////////////////////////////////// -->
+          <a href="#" class="section-item section-one govuk-link--no-visited-state">
+            <span class="number">1</span>
+            <div>
+                 <div class="text-wrapper">
+                      <h3 class="govuk-heading-m">Your employer</h3>
+                 </div>
+                 <strong class="govuk-tag govuk-tag--yellow">incomplete</strong>
+            </div>
+       </a>
+
+
+
+       <!-- ////// > Section Two ~ Training Provider < ////////////////////////////////////////////////////////////////////////////////////////// -->
+       <a href="#" class="section-item section-two govuk-link--no-visited-state">
+            <span class="number">2</span>
+            <div>
+                 <div class="text-wrapper">
+                      <h3 class="govuk-heading-m">Your training provider</h3>
+                 </div>
+                 <strong class="govuk-tag govuk-tag--yellow">incomplete</strong>
+            </div>
+       </a>
+
+
+
+       <!-- ////// > Section Three ~ Apprenticeship Details < ////////////////////////////////////////////////////////////////////////////////////////// -->
+       <a href="#" class="section-item section-three govuk-link--no-visited-state">
+            <span class="number">3</span>
+            <div>
+                 <div class="text-wrapper">
+                      <h3 class="govuk-heading-m">Your apprenticeship details</h3>
+                      <!-- <span class="govuk-caption-m">Lorem ipsum</span> -->
+                 </div>
+                 <strong class="govuk-tag govuk-tag--yellow">incomplete</strong>
+            </div>
+       </a>
+
+
+       <!-- ////// > Section Four ~ Details of Training < ////////////////////////////////////////////////////////////////////////////////////////// -->
+       <a href="#" class="section-item section-four govuk-link--no-visited-state">
+            <span class="number">4</span>
+            <div>
+                 <div class="text-wrapper">
+                      <h3 class="govuk-heading-m">How your apprenticeship will be delivered</h3>
+                      <span class="govuk-caption-m"><!--<b class="complete-number">1</b> of 2 confirmed</span>-->
+                 </div>
+                 <strong class="govuk-tag govuk-tag--yellow">incomplete</strong>
+            </div>
+       </a>
+
+       <!-- ////// > Section Five ~ Roles and Responsibilities < ////////////////////////////////////////////////////////////////////////////////////////// -->
+       <a href="#" class="section-item section-five govuk-link--no-visited-state">
+            <span class="number">5</span>
+            <div>
+                 <div class="text-wrapper">
+                      <h3 class="govuk-heading-m">Roles and responsibilities</h3>
+                      <!-- <span class="govuk-caption-m"><b class="complete-number">2</b> of 3 agreed</span> -->
+                 </div>
+                 <strong class="govuk-tag govuk-tag--yellow">incomplete</strong>
+            </div>
+       </a>
+
+   <br>
+   <br>
+   
+   <!-- //// Help and Support //// -->
+               <h3 class="govuk-heading-m" >Help and Support</h3>
+
+               <p>
+                  If you have any questions or need support, guidance can be found in the <a class="govuk-link" href="../5-agreements/1-agreements.html">help and support section.</a>
+               </p>
+
+
+          </div>
+        </div>
+     </div>
+   {% endblock %}
+
